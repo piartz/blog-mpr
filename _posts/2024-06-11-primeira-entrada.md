@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Primeira entrada"
 date: 2024-06-11
 ---
