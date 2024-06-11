@@ -1,5 +1,5 @@
 title: "Martín Pérez Rodríguez"
 description: "Ciberseguridade, Cloud e DevSecOps"
-baseurl: "https://piartz.github.io/blog-mpr"
-url: "https://piartz.github.io/blog-mpr"
+baseurl: "/blog-mpr"
+url: "https://piartz.github.io"
 theme: minima
