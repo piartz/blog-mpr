@@ -7,7 +7,7 @@ title: "Inicio"
 
 Apaixoado da ciberseguridade, Cloud, DevSecOps e procesos de desenvolvemento de software. Actualmente adicome á consultoría nos Países Baixos. 
 
-### Últimos Posts
+### Ultimos Posts
 
 <ul>
   {% for post in site.posts %}
