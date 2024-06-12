@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Fase de recoñecemento: recoñecemento pasivo en DNS"
-date: 2024-06-11
+title: "Fase de recoñecemento: recoñecemento post-foodhold en Linux"
+date: 2024-06-12
 ---
 
 # Recoñecemento post-foothold en Linux
