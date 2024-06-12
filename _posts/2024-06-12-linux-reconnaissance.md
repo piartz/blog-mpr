@@ -5,7 +5,7 @@ date: 2024-06-12
 ---
 
 # Recoñecemento post-foothold en Linux
-
+Todos os comandos recollidos nesta páxina están dispoñibles en [formato de script único](https://piartz.github.io/blog-mpr//2024/06/12/script-recon-linux.html), que se pode executar dende calqueira directorio nun host cos permisos axeitados. 
 ## Información do Sistema
 
 ### Información Completa do Sistema
