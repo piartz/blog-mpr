@@ -18,6 +18,8 @@ Neste post, vou resumir algúns comandos útiles de Nmap que emprego para explor
 | UDP Ping Scan           | `sudo nmap -PU53,161,162 -sn IP_MAQUINA/30`             |
 
 **Nota:** Lembramos engadir `-sn` se soamente estamos interesados no descubrimento de hosts sen escaneado de portos (port-scanning). Se omitimos a bandeira `-sn`, Nmap executa por defecto o escaneado de portos.
+
+
 | Opción | Descrición                            |
 |--------|------------------------------------|
 | -n     | sen procura reversa DNS (reverse lookup)                      |
