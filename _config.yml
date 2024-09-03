@@ -2,4 +2,10 @@ title: "Martín Pérez Rodríguez"
 description: "Ciberseguridade, Cloud e DevSecOps"
 baseurl: "/blog-mpr/"
 url: "https://piartz.github.io"
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark # or auto if you want it to switch with your system settings.
+
