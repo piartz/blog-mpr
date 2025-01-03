@@ -36,3 +36,34 @@ Isto fai dúas cousas fundamentais:
 2. Trae a shell de novo ao primeiro plano (**foreground**), completando así o proceso.
 
 Unha vez feito isto, teremos unha shell completamente funcional e lista para traballar.
+
+# Usando rlwrap para mellorar unha shell
+
+`rlwrap` é un programa que, en termos simples, nos dá acceso inmediato ao historial, á autocompletación co tabulador e ás frechas de dirección ao recibir unha shell. Non obstante, aínda será necesario realizar unha estabilización manual se desexamos usar **Ctrl + C** dentro da shell. 
+
+Por defecto, `rlwrap` non está instalado en Kali Linux, polo que primeiro temos que instalalo executando:
+
+```bash
+sudo apt install rlwrap
+```
+
+### Usar `rlwrap` cun listener
+Para usar `rlwrap`, debemos invocar un listener de Netcat lixeiramente modificado:
+
+```bash
+rlwrap nc -lvnp <port>
+```
+
+Ao engadir `rlwrap` antes do noso listener de Netcat, obtemos unha shell moito máis funcional. Esta técnica é especialmente útil ao traballar con shells de Windows, que son coñecidas por ser especialmente difíciles de estabilizar.
+
+### Estabilización completa en sistemas Linux
+Cando traballamos cun obxectivo Linux, é posible estabilizar completamente a shell usando o mesmo truco do paso tres da técnica anterior: 
+
+1. Pasar a shell ao fondo co atallo **Ctrl + Z**.
+2. No noso terminal, executar o seguinte comando para estabilizar e reentrar na shell:
+   ```bash
+   stty raw -echo; fg
+   ```
+
+Desta forma, teremos unha shell completamente funcional e lista para traballar tanto en sistemas Linux como Windows.
+
